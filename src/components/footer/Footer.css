@@ -1,0 +1,23 @@
+.featured{
+    color:#31F8FF;
+}
+
+
+
+@media screen and (max-width: 2000px){
+}
+
+@media screen and (max-width: 1150px){}
+
+@media screen and (max-width: 650px){
+
+.about{
+    flex-direction:column;
+    gap:1rem;
+}
+
+#about{
+    margin-top:5rem;
+}
+
+}

@@ -1,0 +1,24 @@
+
+
+.reveal_div1{
+    position:fixed;
+    background: #fff;
+    width:50%;
+    height:120vh;
+    z-index:10;
+    margin:0;
+    top:0;
+    left:0;
+    background-size:cover;
+}
+
+.reveal_div2{
+    position:fixed;
+    background-color: #Fff;
+    width:50%;
+    height:120vh;
+    z-index:10;
+    margin:0;
+    top:0;
+    right:0;
+}

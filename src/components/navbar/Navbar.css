@@ -1,0 +1,49 @@
+.nav__container{
+ min-width:100%;
+ justify-content:space-between;
+ padding: 4rem;
+ position:absolute;
+}
+
+.nav__container-p{
+    font-family:"Barlow";
+    font-size:24px;
+    text-transform: uppercase;
+}
+
+#about-button:after {
+    content: '';
+    position: absolute;
+    width: 4%;
+    transform: scaleX(0);
+    height: 2px;
+    background-color: #31F8FF;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  #about-button:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+
+@media screen and (max-width: 2000px){
+}
+
+@media screen and (max-width: 1150px){}
+
+@media screen and (max-width: 650px){
+
+    .nav__container{
+        padding:2rem;
+        width:100%;
+    }
+
+    .nav__container-p{
+        font-size:1rem;
+    }
+
+
+}

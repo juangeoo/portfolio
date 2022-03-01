@@ -1,0 +1,47 @@
+export const ProjectsInfoUI = [
+    {
+        id: "4",
+        logo: "./projects/project5/logo.png",
+        desc: "Simple interface design for a scooter app for fast and cheap trips helping the environment.",
+        image:"./projects/project5/featured_5.png",
+        tag1:"UI/UX",
+        tag2:"Branding",
+        tag3:"Figma",
+        url:"https://www.behance.net/gallery/130115297/Scootr-Branding-Mobile-App",
+        githubURL:"",
+        backgroundColor:"background: radial-gradient(173.31% 167.13% at 39.44% 50%, #BC191F 0%, #000000 100%);",
+        backgroundImage:"",
+        pos:"left",
+        color:"#BC191F"
+    },
+    {
+        id: "5",
+        logo: "./projects/project6/logo.png",
+        desc: "Conceptual design of a website where you can find recipes, news and advice from leading medical professionals.",
+        image:"./projects/project6/featured_6.png",
+        tag1:"UI/UX",
+        tag2:"Branding",
+        tag3:"Figma",
+        url:"https://www.behance.net/gallery/131079013/Noglu-Proyecto-UXUI",
+        githubURL:"",
+        backgroundColor:"background: radial-gradient(173.31% 167.13% at 39.44% 50%, #BC191F 0%, #000000 100%);",
+        backgroundImage:"",
+        pos:"right",
+        color:"#C8FF65"
+    },
+    {
+        id: "6",
+        logo: "./projects/project7/logo.png",
+        desc: "Creation of interface for an application dedicated to increasing the relationship between people through gaming.",
+        image:"./projects/project7/featured_7.png",
+        tag1:"UI/UX",
+        tag2:"Branding",
+        tag3:"Figma",
+        url:"https://www.behance.net/gallery/130080705/Yeah-App-UI-Design",
+        githubURL:"",
+        backgroundColor:"background: radial-gradient(173.31% 167.13% at 39.44% 50%, #BC191F 0%, #000000 100%);",
+        backgroundImage:"",
+        pos:"left",
+        color:"#337BA5"
+    },
+]

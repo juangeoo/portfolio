@@ -1,0 +1,516 @@
+
+/* Projects.js */
+
+.section-title{
+  font-size: 100px;
+  opacity:.5;
+  font-weight:400;
+  font-family:"Playfair Display";
+  padding: 3rem;
+  text-align:center;
+}
+
+
+/* ProjectCard.js */
+
+  .container__project1{
+    justify-content: flex-start;
+    padding:3rem;
+    gap:60px;
+    opacity: 0;
+    transition-delay: 2s;
+    transition: all 2s ease-in-out;
+    clip-path: inset(0 100% 0 0);
+    overflow:visible;
+    
+  }
+
+  .right{
+    justify-content: flex-end;
+  }
+
+  .project1__img{
+    min-width: 478px;
+    min-height: 660px;
+    transition: all 250ms;
+  }
+
+  .project1__img:hover{
+    transform:translateY(-30px) translateX(-30px);
+    cursor:pointer;
+    box-shadow:
+    30px 30px 0 -5px rgb(56, 56, 56)
+  }
+
+  .project1__info{
+    max-width:600px;
+    display:flex;
+    gap:30px;
+    flex-direction:column;
+  }
+
+  .project-title{
+    max-width:200px;
+  }
+  
+  .project-desc{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #B0B0B0;
+  }
+
+  .project-ul{
+    list-style-type: none;
+    overflow:hidden;
+  }
+
+  .project-ul-item{
+    display:inline;
+    border:1px solid #fff;
+    padding: 10px 20px;
+    color:#fff;
+    margin:2rem 2rem;
+    margin-left:0;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight:500;
+    text-transform: uppercase;
+    border-radius:200px;
+  }
+
+  .project-button{
+    color:white;
+    -webkit-appearance: none;
+    background:transparent;
+    text-align:left;
+    max-width:80%;
+    cursor:pointer;
+    float:left;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    padding:0;
+    max-height:50px;
+    border:none;
+    display:flex;
+    align-items:center;
+    gap:30px;
+    margin-top:30px;
+  }
+
+  .project-button img{
+    transition: all 250ms linear;
+  }
+
+  .project-button:hover img{
+    transform:translateX(15px);
+  }
+
+
+  /* ProjectSiglePage.js */
+
+.container_single{
+  overflow:hidden;
+}
+
+.project__bar{
+max-width:120px;
+height:100vh;
+border: 1px solid rgb(255,255,255,.3);
+position:fixed;
+z-index:99;
+background-color:black;
+}
+
+.project__bar-return{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:120px;
+  border-bottom:1px solid rgb(255,255,255,.6);
+  cursor:pointer;
+  opacity:0.4;
+  transition:all 250ms ease;
+  }
+
+  
+.project__bar-return:hover{
+  opacity:1;
+  border-bottom:1px solid rgb(255,255,255,.24);
+  }
+
+
+.project__bar-info{
+  height:70%;
+  border-bottom:1px solid rgb(255,255,255,.3);
+  display:flex;
+  gap:200px;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  }
+
+.project__bar-info_p{
+  transform:rotate(-90deg);
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  font-weight:300;
+  }
+
+  .project__bar-info_p span{
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .project__bar-img{
+    background-image:url("../../../public/bg-img1.png");
+    height:18%;
+    background-size:cover;
+    filter:grayscale(1)
+  }
+
+
+  .project__link{
+    position:fixed;
+    right:0;
+    bottom:0;
+    margin-right:70px;
+    margin-bottom:70px;
+    padding: 16px 60px;
+    background-color:black;
+    border:1px solid rgb(255,255,255,.3);
+    z-index:99;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 0.2em;
+    font-weight:300;
+    transition: all 250ms ease-in-out;
+  }
+
+  .project__link:hover{
+    background-color:white;
+    color:black;
+
+  }
+  
+.scroll-container{
+ width:4000vh;
+ display:flex;
+ align-items:flex-start;
+ justify-content:flex-start;
+ height:100%;
+ margin-left:120px;
+}
+
+.slide{
+ width:1700px;
+ height:100vh;
+}
+
+.slide1{
+  justify-content: start;
+}
+
+.slide_1_img{
+  object-fit:cover;
+}
+
+.slide_1_text{
+  transform:rotate(-90deg);
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 0.2em;
+  font-weight:300;
+}
+
+.slide_1_hr{
+  width:300px;
+  margin-left:-150px;
+  border: 1px solid rgb(255,255,255,.2);
+}
+
+
+.slide2{
+  flex-direction:column;
+  justify-content: space-between;
+  padding:200px;
+  align-items: flex-end
+}
+
+.slide_2_h1{
+text-align:left;
+font-family: "Playfair Display";
+font-style: normal;
+font-weight: 800;
+font-size: 138px;
+color:black;
+opacity: 0.5;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+}
+
+.slide_2_p{
+  text-align:right;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 31px;
+  text-align: right;
+  width:600px;
+  opacity:0;
+}
+
+.lastslide_h1{
+  position:absolute;
+  width:300px;
+  margin-left:-300px;
+  margin-top:-200px;
+  z-index:99;
+  transition:all 250ms ease-in-out;
+  opacity:0;
+  filter:blur(20px);
+  
+}
+
+.lastslide_h1:hover{
+  color:white;
+  transform:scale(1.05);
+  opacity:1;
+  cursor:pointer;
+  transform:translateX(-30px);
+  transform:translateY(-10px);
+}
+
+.lastslide_img{
+  justify-self: flex-end;
+  opacity:.3;
+  margin-right:-500px;
+}
+
+.slide_img{
+  opacity:0;
+  transition:all 2s ease-in-out;
+  filter:grayscale(1);
+}
+
+/* data scroll class */
+
+
+.view{
+  color:#fff;
+  transition:all 2s ease-in-out;
+  opacity:1;
+  filter:grayscale(0);
+}
+
+.view-h1{
+  transition:all 1s ease-in-out;
+  opacity:1;
+  filter:blur(0px);
+}
+
+.view_project{
+  clip-path: inset(0 0 0 0);
+  opacity:1;
+}
+
+
+@media screen and (max-width: 2000px){
+}
+
+@media screen and (max-width: 1150px){
+
+   
+  .project__bar{
+    min-width:100vw;
+    height:10%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    }
+
+  .project__bar-return{
+    width:10%;
+    height:100%;
+    border:none;
+    }
+
+    .project__bar-info{
+  height:100%;
+  width:70%;
+  border-left:1px solid rgb(255,255,255,.3);
+  border:none;
+  display:flex;
+  gap:5%;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  }
+
+.project__bar-info_p{
+  transform:rotate(0deg);
+  font-size:2.5vw;
+  }
+
+  .project__bar-img{
+    display:none;
+  }
+  
+
+  .project__link{
+    position:fixed;
+    display:flex;
+    margin: 0 auto;
+    margin-right:-40%;
+    margin-bottom:1rem;
+    justify-content:center;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align:center;
+    font-size:16px;
+  }
+
+
+  .scroll-container{
+    width:1150px;
+    flex-direction: column;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:0;
+    width:100%
+   }
+   
+   .slide1{
+     justify-content: center;
+     height:100vh;
+   }
+   
+   .slide_1_img{
+     object-fit:cover;
+     margin:0;
+     margin-left:2%;
+   }
+   
+   .slide_1_text{
+     transform:rotate(0deg);
+     position:absolute;
+     left: 50%;
+     transform: translateX(-50%);
+      display:none;
+   }
+   
+   .slide_1_hr{
+     display:none;
+   }
+   
+.slide2{
+  padding:2rem;
+}
+
+.slide_2_h1{
+display:none;
+}
+
+.slide_2_p{
+  text-align:left;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 31px;
+  width:100%;
+  opacity:1;
+}
+
+.slide{
+  width:100vw;
+  height:auto;
+  padding:1.5rem;
+}
+
+.slide_img{
+  object-fit:contain;
+  width:100%;
+  opacity:1;
+  filter:grayscale(0)
+}
+
+.lastslide{
+  width:100%;
+  padding: 2rem;
+  margin:0;
+  justify-content:start;
+  margin-bottom:100px;
+}
+
+.lastslide_h1{
+  position:relative;
+  width:200px;
+  font-size:62px;
+  text-align:center;
+  margin-left:0;
+  margin-top:0;
+  display:block;
+  z-index:1;
+  opacity:1;
+  filter:none;
+  
+}
+
+.lastslide_img{
+  display:none;
+}
+}
+
+
+@media screen and (max-width: 650px){
+
+  .section-title{
+    font-size: 3rem;
+  }
+
+  .container__project1{
+    justify-content: flex-start;
+    padding:2rem;
+    gap:60px;
+    flex-direction:column;
+  }
+
+  .right{
+    justify-content: flex-start;
+  }
+
+  .project1__img{
+    min-width: 300px;
+    min-height: 500px;
+    background-size:cover;
+  }
+
+  .project-title{
+    font-size:3rem;
+  }
+
+  .project-desc{
+    font-size:1.3rem;
+  }
+
+.project-ul-item{
+padding:.5rem 1rem;
+margin-right:.5rem;
+}
+
+.project-button{
+  font-size:1rem;
+  gap:1rem;
+  max-width:100%;
+}
+
+
+  /* Single page css */
+
+}

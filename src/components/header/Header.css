@@ -1,0 +1,140 @@
+
+.container__header{
+    padding: 3rem;
+    min-height:80vh;
+    align-items:start;
+    flex-direction:column;
+    
+}
+
+.container__header-title{
+    font-size:90px;
+    
+    font-weight: 300;
+    height:100%;
+    font-family: "Playfair Display";
+}
+
+.container__header-animation{
+    overflow:hidden;
+}
+
+.container_header-span{
+    color:#31F8FF;
+}
+
+.container__bar{
+    padding:3rem;
+    justify-content:space-between;
+    
+}
+
+
+.container__bar-items{
+    gap:4rem;
+}
+
+
+.container__bar-h2{
+font-size: 25px;
+letter-spacing: 0.2em;
+font-weight:300;
+text-transform: uppercase;
+transition:all 250ms linear;
+}
+
+.container__bar-h2:hover{
+    font-size:28px;
+    font-weight:500;
+}
+
+.hr{
+    overflow:hidden;
+    margin: 0 3rem;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    color: white;
+    background-color:white;
+    
+}
+
+
+.header-img1{
+    background-image:url("../../../public/bg-img1.png");
+    background-size:cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width:500px;
+    height:80px;
+    display:inline-flex;
+    margin-left:20px;
+}
+
+
+.header-img2{
+    background-image:url("../../../public/bg-img2.png");
+    background-size:cover;
+    width:300px;
+    height:80px;
+    display:inline-flex;
+}
+
+
+@media screen and (max-width: 2000px){
+}
+
+@media screen and (max-width: 1150px){}
+
+@media screen and (max-width: 650px){
+
+    .container__header{
+        padding: 2rem;
+        
+    }
+
+    .container__header-title{
+        font-size:10vw;
+        margin-top:0;
+        
+    }
+
+    .container__bar{
+        padding:2rem;
+        
+    }
+
+    .header-img1{
+        width:200px;
+        height:30px;
+        margin-left:0;
+        display:inline-flex;
+    }
+    
+    
+    .header-img2{
+        width:150px;
+        height:30px;
+    }
+
+    .container__bar-h2{
+        font-size: 1rem;
+        
+        
+    }
+
+    .container__bar{
+        margin-top:-60px;
+    }
+
+    .container__bar-items{
+        gap:0;
+    }
+
+    .hr{
+         margin: 0 2rem;
+    }
+
+}
